@@ -178,7 +178,7 @@
                                     </div>            
                                 </div>
                                 <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
-                                    <h3 class="project-title"><a href="{% url 'services' %}">Urban Soul</a></h3>
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Urban Soul</a></h3>
                                     <div class="d-flex flex-row gspace-1 align-items-center">
                                         <i class="fa-solid fa-circle-dot accent-color"></i>
                                         <span class="project-category">Music Category</span>
@@ -197,7 +197,7 @@
                                     </div>            
                                 </div>
                                 <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
-                                    <h3 class="project-title"><a href="{% url 'services' %}">Echoes of Fashion</a></h3>
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Echoes of Fashion</a></h3>
                                     <div class="d-flex flex-row gspace-1 align-items-center">
                                         <i class="fa-solid fa-circle-dot accent-color"></i>
                                         <a href="#" class="project-category">Commercial Add</a>
@@ -215,7 +215,7 @@
                                     </div>            
                                 </div>
                                 <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
-                                    <h3 class="project-title"><a href="{% url 'services' %}">The Journey</a></h3>
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">The Journey</a></h3>
                                     <div class="d-flex flex-row gspace-1 align-items-center">
                                         <i class="fa-solid fa-circle-dot accent-color"></i>
                                         <a href="#" class="project-category">Travel Documentary</a>
@@ -233,7 +233,7 @@
                                     </div>            
                                 </div>
                                 <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
-                                    <h3 class="project-title"><a href="{% url 'services' %}">Legacy</a></h3>
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Legacy</a></h3>
                                     <div class="d-flex flex-row gspace-1 align-items-center">
                                         <i class="fa-solid fa-circle-dot accent-color"></i>
                                         <a href="#" class="project-category">Short Film</a>
@@ -251,7 +251,7 @@
                                     </div>            
                                 </div>
                                 <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
-                                    <h3 class="project-title"><a href="{% url 'services' %}">Launch Bold</a></h3>
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Launch Bold</a></h3>
                                     <div class="d-flex flex-row gspace-1 align-items-center">
                                         <i class="fa-solid fa-circle-dot accent-color"></i>
                                         <a href="#" class="project-category">Product Teaser</a>
@@ -322,7 +322,7 @@
                                             </div>
                                             <div class="col col-md-3">
                                                 <div class="d-flex flex-column align-items-end justify-content-center h-100">
-                                                    <a href="{% url 'services' %}" class="btn btn-accent">View Details</a>
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -358,7 +358,7 @@
                                             </div>
                                             <div class="col col-md-3">
                                                 <div class="d-flex flex-column align-items-start align-items-md-end justify-content-center h-100">
-                                                    <a href="{% url 'services' %}" class="btn btn-accent">View Details</a>
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -394,7 +394,7 @@
                                             </div>
                                             <div class="col col-md-3">
                                                 <div class="d-flex flex-column align-items-start align-items-md-end justify-content-center h-100">
-                                                    <a href="{% url 'services' %}" class="btn btn-accent">View Details</a>
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -430,7 +430,7 @@
                                             </div>
                                             <div class="col col-md-3">
                                                 <div class="d-flex flex-column align-items-start align-items-md-end justify-content-center h-100">
-                                                    <a href="{% url 'services' %}" class="btn btn-accent">View Details</a>
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -466,7 +466,7 @@
                                             </div>
                                             <div class="col col-md-3">
                                                 <div class="d-flex flex-column align-items-start align-items-md-end justify-content-center h-100">
-                                                    <a href="{% url 'services' %}" class="btn btn-accent">View Details</a>
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -600,291 +600,9 @@
         </div>
     </section>
 
-    <section class="section p-0">
-        <div class="testimonial-banner-container">
-            <div id="testimonial-video-background"></div>
-            <div class="hero-container">
-                <div class="testimonial-banner-content">
-                    <h2>Trusted by creative agencies, brands & storytellers.</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="testimonial-card-container">
-            <div class="hero-container">
-                <div class="row row-cols-lg-3 row-cols-1 grid-spacer-3">
-                    <div class="col">
-                        <div class="d-flex flex-column flex-md-row flex-lg-column gspace-3">
-                            <div class="card card-testimonial">
-                                <div class="d-flex flex-row align-items-center">
-                                    <i class="fa-solid fa-quote-right testimonial-icon"></i>
-                                    <span class="testimonial-heading">Marko - Digital Marketing Agency</span>
-                                </div>
-                                <p>“Working with Montra was a seamless process from start to finish, delivering exceptional visuals that exceeded our creative expectations perfectly.”</p>
-                                <div class="d-flex flex-row gspace-2 align-items-center">
-                                    <div class="testimonial-image">
-                                        <img src="{% static 'images/dummy-img-400x400.jpg' %}" alt="Testimonial" class="img-fluid">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h6>Alex Morgan</h6>
-                                        <p class="testimonial-designation">Marko Agency</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card card-testimonial">
-                                <div class="d-flex flex-row align-items-center">
-                                    <i class="fa-solid fa-quote-right testimonial-icon"></i>
-                                    <span class="testimonial-heading">Lumio - Creative Agency</span>
-                                </div>
-                                <p>“Montra's production team delivered stunning work, showing clear attention to detail and an incredible ability to capture the message effectively.”</p>
-                                <div class="d-flex flex-row gspace-2 align-items-center">
-                                    <div class="testimonial-image">
-                                        <img src="{% static 'images/dummy-img-400x400.jpg' %}" alt="Testimonial" class="img-fluid">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h6>Jamie Carter</h6>
-                                        <p class="testimonial-designation">Lumia Agency</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="d-flex flex-column flex-md-row flex-lg-column gspace-3">
-                            <div class="card card-testimonial">
-                                <div class="d-flex flex-row align-items-center">
-                                    <i class="fa-solid fa-quote-right testimonial-icon"></i>
-                                    <span class="testimonial-heading">Novax - Startup Accelerator</span>
-                                </div>
-                                <p>“Montra turned a complex script into a visually engaging production that not only met our vision, but also added layers of depth, story, and clarity we hadn't imagined.”</p>
-                                <div class="d-flex flex-row gspace-2 align-items-center">
-                                    <div class="testimonial-image">
-                                        <img src="{% static 'images/dummy-img-400x400.jpg' %}" alt="Testimonial" class="img-fluid">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h6>Chloe Ramirez</h6>
-                                        <p class="testimonial-designation">Novax Media</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card card-testimonial">
-                                <div class="d-flex flex-row align-items-center">
-                                    <i class="fa-solid fa-quote-right testimonial-icon"></i>
-                                    <span class="testimonial-heading">ASTRAFILM - Indie Studio</span>
-                                </div>
-                                <p>“We chose Montra for their vision, and they brought our documentary to life with professionalism, artistry, and timely communication throughout.”</p>
-                                <div class="d-flex flex-row gspace-2 align-items-center">
-                                    <div class="testimonial-image">
-                                        <img src="{% static 'images/dummy-img-400x400.jpg' %}" alt="Testimonial" class="img-fluid">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h6>David Foster</h6>
-                                        <p class="testimonial-designation">Astrafilm</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="d-flex flex-column flex-md-row flex-lg-column gspace-3">
-                            <div class="card card-testimonial">
-                                <div class="d-flex flex-row align-items-center">
-                                    <i class="fa-solid fa-quote-right testimonial-icon"></i>
-                                    <span class="testimonial-heading">VELOCITY - Sports Brand</span>
-                                </div>
-                                <p>“Impressed by their dedication and storytelling. Montra crafted visuals that matched our goals and resonated strongly with our audience base.”</p>
-                                <div class="d-flex flex-row gspace-2 align-items-center">
-                                    <div class="testimonial-image">
-                                        <img src="{% static 'images/dummy-img-400x400.jpg' %}" alt="Testimonial" class="img-fluid">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h6>Ethan Brooks</h6>
-                                        <p class="testimonial-designation">Velocity Creative</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card card-testimonial">
-                                <div class="d-flex flex-row align-items-center">
-                                    <i class="fa-solid fa-quote-right testimonial-icon"></i>
-                                    <span class="testimonial-heading">GRAVITAS - Tech Media Group</span>
-                                </div>
-                                <p>“Every shot, every transition, every frame - Montra brought cinematic brilliance with unmatched precision and style that made our brand shine.”</p>
-                                <div class="d-flex flex-row gspace-2 align-items-center">
-                                    <div class="testimonial-image">
-                                        <img src="{% static 'images/dummy-img-400x400.jpg' %}" alt="Testimonial" class="img-fluid">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h6>Nicole Adams</h6>
-                                        <p class="testimonial-designation">Gravitas Media</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card-wrapper">
-                    <div class="spacer"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-cta-contact">
-        <div class="hero-container">
-            <div class="contact-cta-banner">
-                <div class="contact-cta-title-container">
-                    <h2 class="contact-cta-title heading-fill">
-                        Let's Turn Your Vision Into Cinematic Reality
-                    </h2>
-                    <h2 class="contact-cta-title heading-stroke">
-                        Let's Turn Your Vision Into Cinematic Reality
-                    </h2>
-                </div>
-                <div class="contact-cta-text-container">
-                    <p>
-                        From concept development to post-production, we craft cinematic experiences that captivate and inspire. Let's create something extraordinary together.
-                    </p>
-                    <div>
-                        <a href="{% url 'contact' %}" class="btn btn-accent-primary">
-                            Free Consultation
-                        </a>
-                    </div>
-                </div>
-
-                <div class="contact-cta-image">
-                    <img src="{% static 'images/dummy-img-600x800.jpg' %}" alt="Contact CTA" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="hero-container overflow-visible">
-            <div class="row row-cols-lg-2 row-cols-1 grid-spacer-y-5 grid-spacer-x-3">
-                <div class="col col-lg-4">
-                    <div class="team-title-container">
-                        <h2>Meet the Creative Minds Behind the Lens</h2>
-                        <p>Our team is a collective of visionary directors, cinematographers, editors, and storytellers who turn concepts into cinematic experiences.</p>
-                        <div>
-                            <a href="{% url 'team' %}" class="btn btn-accent">View All Team</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-8">
-                    <div class="row row-cols-md-2 row-cols-1 grid-spacer-3">
-                        <div class="col">
-                            <div class="team-container">
-                                <div class="image-container team-image">
-                                    <img src="{% static 'images/dummy-img-600x600.jpg' %}" alt="Team" class="img-fluid">
-                                </div>
-                                <div class="d-flex flex-row align-items-center justify-content-between gspace-2">
-                                    <div class="d-flex flex-column">
-                                        <h4>Daniel Reyes</h4>
-                                        <p class="team-designation">Creative Director</p>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center gspace-1">
-                                        <a href="https://www.instagram.com/" class="social-icon">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                        <a href="https://www.facebook.com/" class="social-icon">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="https://www.x.com/" class="social-icon">
-                                            <i class="fa-brands fa-x-twitter"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="team-container">
-                                <div class="image-container team-image">
-                                    <img src="{% static 'images/dummy-img-600x600.jpg' %}" alt="Team" class="img-fluid">
-                                </div>
-                                <div class="d-flex flex-row align-items-center justify-content-between gspace-2">
-                                    <div class="d-flex flex-column">
-                                        <h4>Maya Chen</h4>
-                                        <p class="team-designation">Director of Photography</p>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center gspace-1">
-                                        <a href="https://www.instagram.com/" class="social-icon">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                        <a href="https://www.facebook.com/" class="social-icon">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="https://www.x.com/" class="social-icon">
-                                            <i class="fa-brands fa-x-twitter"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="team-container">
-                                <div class="image-container team-image">
-                                    <img src="{% static 'images/dummy-img-600x600.jpg' %}" alt="Team" class="img-fluid">
-                                </div>
-                                <div class="d-flex flex-row align-items-center justify-content-between gspace-2">
-                                    <div class="d-flex flex-column">
-                                        <h4>Sasha Morgan</h4>
-                                        <p class="team-designation">Scriptwriter</p>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center gspace-1">
-                                        <a href="https://www.instagram.com/" class="social-icon">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                        <a href="https://www.facebook.com/" class="social-icon">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="https://www.x.com/" class="social-icon">
-                                            <i class="fa-brands fa-x-twitter"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="team-container">
-                                <div class="image-container team-image">
-                                    <img src="{% static 'images/dummy-img-600x600.jpg' %}" alt="Team" class="img-fluid">
-                                </div>
-                                <div class="d-flex flex-row align-items-center justify-content-between gspace-2">
-                                    <div class="d-flex flex-column">
-                                        <h4>Leo Fernandez</h4>
-                                        <p class="team-designation">Lead Video Editor</p>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center gspace-1">
-                                        <a href="https://www.instagram.com/" class="social-icon">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                        <a href="https://www.facebook.com/" class="social-icon">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <a href="https://www.x.com/" class="social-icon">
-                                            <i class="fa-brands fa-x-twitter"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="section-small">
         <div class="hero-container overflow-hidden">
             <div class="partners-container">
-                <h5 class="partnership-title-content">
-                    Trusted by Industry Leaders & Creative Brands
-                </h5>
                 <div class="overflow-hidden">
                     <div class="swiper swiperpartner">
                         <div class="swiper-wrapper">
@@ -893,7 +611,6 @@
                             <div class="swiper-slide"><img src="{% static 'images/Client-5.png' %}" alt="Partner" class="partner-image"></div>
                             <div class="swiper-slide"><img src="{% static 'images/Client-1.png' %}" alt="Partner" class="partner-image"></div>
                             <div class="swiper-slide"><img src="{% static 'images/Client-2.png' %}" alt="Partner" class="partner-image"></div>
-                            <div class="swiper-slide"><img src="{% static 'images/Client-6.png' %}" alt="Partner" class="partner-image"></div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -905,13 +622,11 @@
     <section class="section">
         <div class="hero-container">
             <div class="blog-content-container">
-                <h2 class="section-title">Latest Insights in Film, Video & Creativity</h2>
-
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 grid-spacer-3">
                     <div class="col">
                         <div class="card card-blog">
                             <div class="image-container blog-image">
-                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog" class="img-fluid">
                             </div>
                             <div class="card-blog-content">
                                 <div class="d-flex flex-row align-items-center justify-content-between">
@@ -924,7 +639,7 @@
                                         <span class="meta-data">Creative Direction</span>
                                     </div>
                                 </div>
-                                <a href="{% url 'blog' %}" class="blog-title">Directing with Emotion: Crafting Impactful Scenes</a>
+                                <a href="{% url 'single-post' %}" class="blog-title">Directing with Emotion: Crafting Impactful Scenes</a>
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
                             </div>
                         </div>
@@ -945,7 +660,7 @@
                                         <span class="meta-data">Creative Direction</span>
                                     </div>
                                 </div>
-                                <a href="{% url 'blog' %}" class="blog-title">Behind the Scenes: Building a Visual Concept from Scratch</a>
+                                <a href="{% url 'single-post' %}" class="blog-title">Behind the Scenes: Building a Visual Concept from Scratch</a>
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
                             </div>
                         </div>
@@ -966,7 +681,7 @@
                                         <span class="meta-data">Production Insights</span>
                                     </div>
                                 </div>
-                                <a href="{% url 'blog' %}" class="blog-title">Choosing the Right Lenses for Storytelling</a>
+                                <a href="{% url 'single-post' %}" class="blog-title">Choosing the Right Lenses for Storytelling</a>
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
                             </div>
                         </div>

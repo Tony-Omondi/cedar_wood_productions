@@ -47,7 +47,7 @@
                                 <h4>hello@montrastudio.com</h4>
                             </div>
                             <div class="d-flex flex-column gspace-2">
-                                <span class="contact-info-heading">Bussiness Hours</span>
+                                <span class="contact-info-heading">Business Hours</span>
                                 <h4>Mon - Fri: 9AM - 6PM</h4>
                             </div>
                             <div class="d-flex flex-column gspace-2">
@@ -86,7 +86,7 @@
                             </div>
                             <div class="card card-contact-form">
                                 <h3>Send us a Message</h3>
-                                <form id="contact-form" action="#" class="form" method="post">
+                                <form id="contact-form" action="{% url 'contact' %}" class="form" method="post">
                                     {% csrf_token %}
                                     <div class="row row-cols-lg-2 row-cols-1 grid-spacer-2">
                                         <div class="col">

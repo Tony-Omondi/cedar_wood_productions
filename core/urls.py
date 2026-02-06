@@ -13,7 +13,7 @@ urlpatterns = [
     path('service-detail/', views.servicedetail, name='service-detail'),
     path('single-post/', views.singlepost, name='single-post'), # <-- Add this line
     path('team/', views.team, name='team'), # <-- Add this line
-    path('testimonial/', views.team, name='testimonial'), # <-- Add this line
+    path('testimonial/', views.testimonial, name='testimonial'),# <-- Add this line
     path('forforpage/', views.forforpage, name='forforpage'), # <-- Add this line
 ]
 

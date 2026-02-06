@@ -24,12 +24,12 @@
                         <div class="d-flex flex-column gspace-3">
                             <h4>Navigation</h4>
                             <ul class="chevron-circle-list">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./about.html">About Us</a></li>
-                                <li><a href="./services.html">Services</a></li>
-                                <li><a href="./project.html">Portfolio</a></li>
-                                <li><a href="./blog.html">Blog</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="{% url 'home' %}">Home</a></li>
+                                <li><a href="{% url 'about' %}">About Us</a></li>
+                                <li><a href="{% url 'services' %}">Services</a></li>
+                                <li><a href="{% url 'project' %}">Portfolio</a></li>
+                                <li><a href="{% url 'blog' %}">Blog</a></li>
+                                <li><a href="{% url 'contact' %}">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                                 <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
                                 <p class="text-center">Oops! Form submission failed. Please try again.</p>
                             </div>
-                            <form id="newsletter-form" action="./assets/php/submit-newsletter.php" class="form" method="post">
+                            <form id="newsletter-form" action="#" class="form" method="post">
                                 {% csrf_token %}
                                 <input type="email" id="newsletter" name="newsletter" placeholder="Hello@Montrastudio.com">
                                 <button type="submit" class="btn btn-accent-primary">Subscribe Now</button>
