@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'includes/header.html' %}
+    <title>{% block title %}Montra{% endblock %}</title>
+</head>
+<body>
+
+    {% include 'includes/navbar.html' %}
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    
+    {% include 'includes/footer.html' %}
+
+    <script src="{% static 'js/vendor/jquery.min.js' %}"></script>
+    <script src="{% static 'js/vendor/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/vendor/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/swiper-script.js' %}"></script>
+    <script src="{% static 'js/submit-form.js' %}"></script>
+    <script src="{% static 'js/video_embedded.js' %}"></script>
+</body>
+</html>

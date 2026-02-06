@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Portfolio | Montra{% endblock %}
+
+{% block content %}
+
+    <section class="section banner-inner project-banner">
+        <div class="banner-overlay"></div>
+        <div class="hero-container">
+            <div class="banner-inner-container">
+                <h2>Portfolio</h2>
+                <nav class="breadcrumb">
+                    <a href="{% url 'home' %}" class="breadcrumb-item">Home</a>
+                    <span class="separator">/</span>
+                    <span class="breadcrumb-item current">Portfolio</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-project bg-accent-color-5">
+        <div class="hero-container overflow-visible">
+            <div class="project-section-content">
+                <div class="project-heading-container">
+                    <h2 class="project-section-heading">Featured Project</h2>
+                </div>
+
+                <div class="project-content-container">
+                    <div class="row row-cols-lg-2 row-cols-1 grid-spacer-x-5 grid-spacer-y-120">
+                        
+                        <div class="col">
+                            <div class="d-flex flex-column gspace-2">
+                                <div class="project-video-container project-video-container--tall">
+                                    <div class="project-video-bg" data-video-id="Go8gUX_HZAY" id="video-bg-1"></div>
+                                    <div>
+                                        <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                                    </div>           
+                                </div>
+                                <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Urban Soul</a></h3>
+
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-circle-dot accent-color"></i>
+                                        <a href="#" class="project-category">Music Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+      
+                        <div class="col">
+                            <div class="d-flex flex-column gspace-2 justify-content-center align-items-center h-100">
+                                <div class="project-video-container">
+                                    <div class="project-video-bg" data-video-id="LqTk5IbBxgs" id="video-bg-2"></div>
+                                    <div>
+                                        <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                                    </div>           
+                                </div>
+                                <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Echoes of Fashion</a></h3>
+
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-circle-dot accent-color"></i>
+                                        <a href="#" class="project-category">Commercial Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 w-100">
+                            <div class="d-flex flex-column gspace-2 justify-content-center align-items-center h-100 w-100">
+                                <div class="project-video-container project-video-container--wide">
+                                    <div class="project-video-bg" data-video-id="Np4EN8ZPMFU" id="video-bg-3"></div>
+                                    <div class="w-100 d-flex justify-content-center">
+                                        <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                                    </div>           
+                                </div>
+                                <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">The Journey</a></h3>
+
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-circle-dot accent-color"></i>
+                                        <a href="#" class="project-category">Travel Documentary</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex flex-column gspace-2 justify-content-center align-items-center h-100">
+                                <div class="project-video-container">
+                                    <div class="project-video-bg" data-video-id="DOeuljcKkTI" id="video-bg-4"></div>
+                                    <div>
+                                        <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                                    </div>           
+                                </div>
+                                <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Legacy</a></h3>
+
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-circle-dot accent-color"></i>
+                                        <a href="#" class="project-category">Short Film</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex flex-column gspace-2">
+                                <div class="project-video-container project-video-container--tall">
+                                    <div class="project-video-bg" data-video-id="BCKMzk2rRKo" id="video-bg-5"></div>
+                                    <div>
+                                        <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
+                                    </div>           
+                                </div>
+                                <div class="d-flex flex-row gspace-2 justify-content-between align-items-center flex-wrap w-100">
+                                    <h3 class="project-title"><a href="{% url 'project-detail' %}">Launch Bold</a></h3>
+
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-circle-dot accent-color"></i>
+                                        <a href="#" class="project-category">Product Teaser</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="hero-container">
+            <div class="contact-cta-banner">
+                <div class="contact-cta-title-container">
+                    <h2 class="contact-cta-title heading-fill">
+                        Let's Turn Your Vision Into Cinematic Reality
+                    </h2>
+                    <h2 class="contact-cta-title heading-stroke">
+                        Let's Turn Your Vision Into Cinematic Reality
+                    </h2>
+                </div>
+                <div class="contact-cta-text-container">
+                    <p>
+                        From concept development to post-production, we craft cinematic experiences that captivate and inspire. Let's create something extraordinary together.
+                    </p>
+                    <div>
+                        <a href="{% url 'contact' %}" class="btn btn-accent-primary">
+                            Free Consultation
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-cta-image">
+                    <img src="{% static 'images/dummy-img-600x800.jpg' %}" alt="Contact CTA" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

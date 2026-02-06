@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Page Not Found - Montra{% endblock %}
+
+{% block content %}
+
+    <section class="section banner-inner banner-notfound notfound-banner">
+        <div class="banner-overlay"></div>
+        <div class="hero-container">
+            <div class="banner-notfound-container">
+                <span class="notfound-heading">404</span>
+                <h2>Ooops! Page Not Found</h2>
+                <p class="notfound-description">We're sorry, but the page you're looking for doesn't exist or has been moved. Let us help you get back on track with the right business solutions.</p>
+                <a href="{% url 'home' %}" class="btn btn-accent">Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

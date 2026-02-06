@@ -1,0 +1,252 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Blog/Journal | Montra{% endblock %}
+
+{% block content %}
+
+    <section class="section banner-inner blog-banner">
+        <div class="banner-overlay"></div>
+        <div class="hero-container">
+            <div class="banner-inner-container">
+                <h2>Blog</h2>
+                <nav class="breadcrumb">
+                    <a href="{% url 'home' %}" class="breadcrumb-item">Home</a>
+                    <span class="separator">/</span>
+                    <span class="breadcrumb-item current">Our Blog</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="hero-container">
+            <div class="blog-content-container">
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 grid-spacer-3">
+                    
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Creative Direction</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">Directing with Emotion: Crafting Impactful Scenes</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Creative Direction</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">Behind the Scenes: Building a Visual Concept from Scratch</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Production Insights</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">Choosing the Right Lenses for Storytelling</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Filmmaking Tips</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">Beginner's Guide to Filmmaking with Minimal Budget</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Production Insights</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">Post-Production Workflow: From Rough Cut to Final Render</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Production Insights</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">Lighting Techniques That Set the Mood</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Filmmaking Tips</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">How to Master the Art of Storyboarding for Short Films</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Production Insights</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">Essential Gear Checklist for Your Next Shoot</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Creative Direction</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">From Vision to Screen: How We Plan Every Shot</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-blog">
+                            <div class="image-container blog-image">
+                                <img src="{% static 'images/dummy-img-600x400.jpg' %}" alt="Blog Image" class="img-fluid">
+                            </div>
+                            <div class="card-blog-content">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-calendar accent-color"></i>
+                                        <span class="meta-data">July 19, 2025</span>
+                                    </div>
+                                    <div class="d-flex flex-row gspace-1 align-items-center">
+                                        <i class="fa-solid fa-folder accent-color"></i>
+                                        <span class="meta-data">Filmmaking Tips</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-title">5 Cinematic Camera Angles Every Director Should Know</a>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at sapien ut nulla rhoncus placerat.…</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
