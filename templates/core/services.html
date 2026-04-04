@@ -19,7 +19,7 @@
         </div>
     </section>
 
-    <section class="section service-content-banner">
+<section class="section service-content-banner">
         <div class="hero-container">
             <div class="d-flex flex-column gspace-5">
                 <div class="service-title-wrapper">
@@ -34,22 +34,22 @@
                     </div>
                 
                     <div class="service-title-cta">
-                        <a href="#" class="btn btn-accent">Explore All Services</a>
+                        <a href="{% url 'services' %}" class="btn btn-accent">Explore All Services</a>
                     </div>
                 </div>
-                  
+                
                 <div class="accordion" id="serviceAccordion">
                     
                     <div class="accordion-item service-acc-1">
                         <h2 class="accordion-header service-accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service1">
-                                Video Production
+                                VIDEOGRAPHY
                             </button>
                         </h2>
                         <div id="service1" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
                             <div class="accordion-body">
                                 <div class="service-content-container">
-                                    <div class="service-video-bg" data-video-id="pVA0G01aDfk" id="service-video-1" data-start="4" data-end="20"></div>
+                                    <div class="service-video-bg" data-video-id="kxX-GQQfMyk" id="service-video-1" data-start="4" data-end="20"></div>
                                     <div class="service-video-content">
                                         <div class="row row-cols-md-2 row-cols-1 grid-spacer-2">
                                             <div class="col col-md-9">
@@ -75,6 +75,42 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item service-acc-4">
+                        <h2 class="accordion-header service-accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service4">
+                                EVENT COVERAGE & LIVE STREAMING
+                            </button>
+                        </h2>
+                        <div id="service4" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                            <div class="accordion-body">
+                                <div class="service-content-container">
+                                    <div class="service-video-bg" data-video-id="pVA0G01aDfk" id="service-video-4" data-start="60" data-end="80"></div>
+                                    <div class="service-video-content">
+                                        <div class="row row-cols-md-2 row-cols-1 grid-spacer-2">
+                                            <div class="col col-md-9">
+                                                <div class="d-flex flex-column-reverse flex-lg-row gspace-2 justify-content-between w-100">
+                                                    <div class="service-description-content">
+                                                        <p class="mb-0">We handle every step of the film production process from concept development, scripting, casting, location scouting, to on-set direction and cinematography.</p>
+                                                    </div>
+                                                    <div class="service-tag-container">
+                                                        <span class="service-tag">film production</span>
+                                                        <span class="service-tag">video shooting</span>
+                                                        <span class="service-tag">creative film studio</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-md-3">
+                                                <div class="d-flex flex-column align-items-start align-items-md-end justify-content-center h-100">
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="accordion-item service-acc-2">
                         <h2 class="accordion-header service-accordion-header">
@@ -85,7 +121,7 @@
                         <div id="service2" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
                             <div class="accordion-body">
                                 <div class="service-content-container">
-                                    <div class="service-video-bg" data-video-id="pVA0G01aDfk" id="service-video-2" data-start="20" data-end="40"></div>
+                                    <div class="service-video-bg" data-video-id="3whQ4o48qhw" id="service-video-2" data-start="20" data-end="40"></div>
                                     <div class="service-video-content">
                                         <div class="row row-cols-md-2 row-cols-1 grid-spacer-2">
                                             <div class="col col-md-9">
@@ -115,7 +151,7 @@
                     <div class="accordion-item service-acc-3">
                         <h2 class="accordion-header service-accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service3">
-                                Script Writing
+                                Documentary
                             </button>
                         </h2>
                         <div id="service3" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
@@ -151,7 +187,42 @@
                     <div class="accordion-item service-acc-4">
                         <h2 class="accordion-header service-accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service4">
-                                Motion Graphics
+                            SOCIAL MEDIA MANAGEMENT
+                            </button>
+                        </h2>
+                        <div id="service4" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                            <div class="accordion-body">
+                                <div class="service-content-container">
+                                    <div class="service-video-bg" data-video-id="pVA0G01aDfk" id="service-video-4" data-start="60" data-end="80"></div>
+                                    <div class="service-video-content">
+                                        <div class="row row-cols-md-2 row-cols-1 grid-spacer-2">
+                                            <div class="col col-md-9">
+                                                <div class="d-flex flex-column-reverse flex-lg-row gspace-2 justify-content-between w-100">
+                                                    <div class="service-description-content">
+                                                        <p class="mb-0">We handle every step of the film production process from concept development, scripting, casting, location scouting, to on-set direction and cinematography.</p>
+                                                    </div>
+                                                    <div class="service-tag-container">
+                                                        <span class="service-tag">film production</span>
+                                                        <span class="service-tag">video shooting</span>
+                                                        <span class="service-tag">creative film studio</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-md-3">
+                                                <div class="d-flex flex-column align-items-start align-items-md-end justify-content-center h-100">
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="accordion-item service-acc-4">
+                        <h2 class="accordion-header service-accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service4">
+                                COMMERCIALS & ADVERTISING
                             </button>
                         </h2>
                         <div id="service4" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
@@ -184,27 +255,114 @@
                         </div>
                     </div>
 
+
                     <div class="accordion-item service-acc-5">
                         <h2 class="accordion-header service-accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service5">
-                                Sound Design
+                                Graphic Design
                             </button>
                         </h2>
                         <div id="service5" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
                             <div class="accordion-body">
                                 <div class="service-content-container">
-                                    <div class="service-video-bg" data-video-id="pVA0G01aDfk" id="service-video-5" data-start="80" data-end="100"></div>
+                                    
+                                    <div class="service-gallery-wrapper mb-4">
+                                        <div class="row row-cols-md-2 row-cols-1 g-3">
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (5).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (1).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (2).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (5).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (3).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (4).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (7).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (8).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (9).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (10).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (1).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/graphics_design/graphics (1).png' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                        </div>
+                                    </div>
+                    
+                        
                                     <div class="service-video-content">
                                         <div class="row row-cols-md-2 row-cols-1 grid-spacer-2">
                                             <div class="col col-md-9">
                                                 <div class="d-flex flex-column-reverse flex-lg-row gspace-2 justify-content-between w-100">
                                                     <div class="service-description-content">
-                                                        <p class="mb-0">We handle every step of the film production process from concept development, scripting, casting, location scouting, to on-set direction and cinematography.</p>
+                                                        <p class="mb-0">We capture moments with precision, offering professional services in portraiture, commercial shoots, event coverage, and high-end editorial photography.</p>
                                                     </div>
                                                     <div class="service-tag-container">
-                                                        <span class="service-tag">film production</span>
-                                                        <span class="service-tag">video shooting</span>
-                                                        <span class="service-tag">creative film studio</span>
+                                                        <span class="service-tag">portraiture</span>
+                                                        <span class="service-tag">commercial</span>
+                                                        <span class="service-tag">editorial</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-md-3">
+                                                <div class="d-flex flex-column align-items-start align-items-md-end justify-content-center h-100">
+                                                    <a href="{% url 'service-detail' %}" class="btn btn-accent">View Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item service-acc-5">
+                        <h2 class="accordion-header service-accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service5">
+                                Photography
+                            </button>
+                        </h2>
+                        <div id="service5" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                            <div class="accordion-body">
+                                <div class="service-content-container">
+                                    
+                                    <div class="service-gallery-wrapper mb-4">
+                                        <div class="row row-cols-md-2 row-cols-1 g-3">
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (1).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (2).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (3).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (4).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (5).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (6).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (7).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (8).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (9).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (10).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (11).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (12).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (13).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (14).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (15).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (16).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (17).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (18).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (19).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (20).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (21).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (22).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (23).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (24).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (25).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (26).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                            <div class="col"><div class="image-container"><img src="{% static 'images/temore/Photography1 (27).jpeg' %}" alt="Photography Gallery" class="img-fluid"></div></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="service-video-content">
+                                        <div class="row row-cols-md-2 row-cols-1 grid-spacer-2">
+                                            <div class="col col-md-9">
+                                                <div class="d-flex flex-column-reverse flex-lg-row gspace-2 justify-content-between w-100">
+                                                    <div class="service-description-content">
+                                                        <p class="mb-0">We capture moments with precision, offering professional services in portraiture, commercial shoots, event coverage, and high-end editorial photography.</p>
+                                                    </div>
+                                                    <div class="service-tag-container">
+                                                        <span class="service-tag">portraiture</span>
+                                                        <span class="service-tag">commercial</span>
+                                                        <span class="service-tag">editorial</span>
                                                     </div>
                                                 </div>
                                             </div>

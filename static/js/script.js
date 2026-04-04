@@ -41,13 +41,13 @@ function initBannerVideo() {
     if (!$el.length) return;
 
     new YT.Player($el.attr("id"), {
-        videoId: "RmSuaJH7I9E",
+        videoId: "JYZ3a9jWcCQ",
         playerVars: {
             autoplay: 1,
             controls: 0,
             mute: 1,
             loop: 1,
-            playlist: "RmSuaJH7I9E",
+            playlist: "JYZ3a9jWcCQ",
             rel: 0,
             modestbranding: 1,
             iv_load_policy: 3,
@@ -71,13 +71,13 @@ function initTestimonialBannerVideo() {
     if (!$el.length) return;
 
     new YT.Player($el.attr("id"), {
-        videoId: "RmSuaJH7I9E",
+        videoId: "3ApS-2nq1ZA",
         playerVars: {
             autoplay: 1,
             controls: 0,
             mute: 1,
             loop: 1,
-            playlist: "RmSuaJH7I9E",
+            playlist: "3ApS-2nq1ZA",
             rel: 0,
             modestbranding: 1,
             iv_load_policy: 3,
